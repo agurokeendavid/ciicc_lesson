@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class Task2 {
     public static void main(String[] args) {
         PrimitiveValues primitives = new PrimitiveValues();
         MessageBuilder messageBuilder = new MessageBuilder(primitives);
@@ -11,7 +11,7 @@ public class Main {
 // a class to hold primitive values except long and double
 class PrimitiveValues {
     private byte b = 0;
-    private short s = 2;
+    private short s = 1;
     private int i = 3110;
     private float f = 2.0f;
     private char c1 = 'H';
